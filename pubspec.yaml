@@ -1,0 +1,38 @@
+name: learnbuddy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  go_router: ^16.2.0
+  loading_animation_widget: ^1.3.0
+  slide_to_act: ^2.0.2
+  flutter_riverpod: ^2.6.1
+  swipable_stack: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/launcher_icon.png"
+  min_sdk_android: 21
+  android_adaptive_icon_background: "#FFFFFF"  # background color (Android only)
+  android_adaptive_icon_foreground: "assets/launcher_icon.png" # foreground icon
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/bottom_nav_icons/
