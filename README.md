@@ -1,16 +1,15 @@
-# learnbuddy
+A Flutter-based mobile app that helps users connect, learn, and grow together by sharing skills.
+🚀 Features
+🔑 Authentication with JWT & MongoDB
+👥 Skill-based user matching
+💬 Real-time chat & notifications with Socket.io
+📹 Video chat & screen sharing powered by WebRTC
+🗄 Secure user storage in MongoDB
+🎨 Cross-platform app (Android & iOS) with Flutter + Riverpod
+🛠 Tech Stack
+Frontend: Flutter, Riverpod (state management)
+Backend: Node.js, Express.js
+Database: MongoDB
+Real-time Communication: Socket.io, WebRTC
+Authentication: JWT
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
